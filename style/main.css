@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+body {
+  background-color: #eee;
+}
+
+.wrapper-password {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: rgb(253, 254, 255);
+  box-shadow: 0 0 20px rgb(162, 164, 192);
+}
+
+.password {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.password input {
+  width: 200px;
+  margin: 20px 0px;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid silver;
+  transition: 2s ease;
+}
+
+
+.password {
+  position: relative;
+}
+
+.password i {
+  position: absolute;
+  top: 25%;
+  right: 17%;
+}
+
+.login {
+  margin-top: 30px;
+}
+
+.login button {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: 0;
+  background-color: #76C4D4;
+  color: aliceblue;
+}
+
+.login p {
+  margin-top: 100px;
+  color: #76C4D4;
+}
